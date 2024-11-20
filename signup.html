@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="forms.css" />
+    <script src="forms.js"></script>
+    <link rel="icon" href="images/icon.jpg">
+  </head>
+  <body>
+    <header>
+      <h1> <pre> Create An
+ Account</pre></h1>
+      <nav>
+        <span></ul>
+          <li><a href="home.html">Home</a></li></ul>
+        </span>
+        <span></ul>
+          <li><a href="products.html">Products</a></li>
+        </ul> </span>
+      </nav>
+    </header>
+    <main>
+      <form action="/signup" method="POST" class="auth-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input
+          type="password"
+          id="confirm-password"
+          name="confirm-password"
+          required
+        />
+
+        <button class="slbtn" type="submit">Sign Up</button>
+      </form>
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+    </main>
+    <footer>
+      <p>© 2024 Jessy's Gym Store</p>
+    </footer>
+  </body>
+</html>
